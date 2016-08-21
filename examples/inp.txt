@@ -1,0 +1,29 @@
+3
+1
+a
+autolist
+short hand for `ls -X1 | tr -t '\n' '@'`
+
+2
+i
+input_files
+<'@' joined file names>
+takes '@' joined file list like "a.pdf@b.pdf@c.pdf"
+
+0
+
+2
+r
+replace_names
+<'@' joined file names>
+replaces file name from -i list with this list (position wise)
+
+2
+o
+output_file
+<fileName>
+Joins all pdf into this file
+
+0
+pdfjoin.sh
+Joins multiple pdf with bookmarks named after file names.
